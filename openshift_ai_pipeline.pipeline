@@ -14,7 +14,9 @@
           "op": "execute-notebook-node",
           "app_data": {
             "component_parameters": {
-              "dependencies": [],
+              "dependencies": [
+                "kaggle.json"
+              ],
               "include_subdirectories": true,
               "outputs": [
                 "fictional-character-battle-outcome-prediction.zip"
